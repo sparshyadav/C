@@ -7,14 +7,19 @@ int main()
 
     printf("Hello\nWorld ");
 
-    int age = 22;
-    printf("Age is %d \n", age);
+    int aged = 22;
+    printf("Age is %d \n", aged);
 
     float pi = 3.14;
     printf("Value is pi is %f \n", pi);
 
     char star = '*';
     printf("A star looks like %c \n", star);
+
+    int age;
+    printf("Enter Age: \n");
+    scanf("%d", &age);
+    printf("The age is: %d ",age);
 
     return 0;
 }
